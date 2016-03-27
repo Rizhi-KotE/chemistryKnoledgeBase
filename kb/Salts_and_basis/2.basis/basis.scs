@@ -1,0 +1,15 @@
+basis <= nrel_inclusion: complex_substance;;
+basis
+	=> nrel_main_idtf: [basis](*<- lang_en;;*);
+						[основание](*<- lang_ru;;*);
+	<- rrel_key_sc_element:...
+	(*
+		<- sc_definition;;
+		<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:
+				"file://basis.html"
+				(*<- lang_ru;;*);;
+		*);;
+	*);;
+	
