@@ -1,4 +1,4 @@
-sc_node_role_relation->nrel_indicator;;
+sc_node_norole_relation->nrel_indicator;;
 nrel_indicator
 	=> nrel_main_idtf: [nrel_indicator](*<- lang_en;;*);
 						[индикатор](*<- lang_ru;;*);

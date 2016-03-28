@@ -2,18 +2,26 @@ salt <= nrel_inclusion: complex_substance;;
 salt
 	<- sc_node_not_relation;
 	=> nrel_main_idtf: 
-		[salt](*<- lang_en;;*);
-		[соль](*<- lang_ru;;*);
-	<- rrel_key_sc_element:
-	salt_definition
+		[salt] (*<- lang_en;;*);
+		[соль] (*<- lang_ru;;*);;
+	salt <- rrel_key_sc_element: salt_definition
 	(*
 	<- sc_explanation;;
-	<= nrel_sc_text_translation:
-		...
-		(*
-		-> rrel_example: "file://salt_ru.html" (* <-lang_ru;; *);;
-		*);;
+	<= nrel_sc_text_translation:...
+	(*
+	-> rrel_example: [<p>
+		<b><sc_element sys_idtf = "salt"> Солями </sc_element></b> называются сложные вещества, молекулы которых, состоят из атомов <sc_element sys_idtf = "metal">металлов</sc_element> и кислотных остатков (иногда могут содержать водород).
+	</p>] 
+	  (*  
+		<-lang_ru;;
+		=> nrel_format: format_html;; *);;
+	  *);;
 	*);;
+	salt<= nrel_using_constants:
+		{
+			metal;
+			acid_residue
+		};;
 salt_definition
 	=> nrel_main_idtf:
 		[Опр.(соль)](* <-lang_ru;; *);;
