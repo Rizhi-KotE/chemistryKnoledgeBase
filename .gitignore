@@ -1,10 +1,10 @@
-kb.bin
-sc-machine
-scp-machine
-sc-web
-ims.ostis.kb
-ims.ostis.kb_copy
-geometry.drawings
+kb.bin/
+sc-machine/
+scp-machine/
+sc-web/
+ims.ostis.kb/
+ims.ostis.kb_copy/
+geometry.drawings/
 config/
 scripts/
 Grunt*.js
