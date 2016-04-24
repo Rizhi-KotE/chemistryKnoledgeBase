@@ -7,5 +7,6 @@ ims.ostis.kb_copy/
 geometry.drawings/
 config/
 scripts/
-
+*.js*
+web-scn-editor
 *.*~
