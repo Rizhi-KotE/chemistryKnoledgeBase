@@ -5,7 +5,7 @@ nrel_reaction
 		[химическая реакция] (*<- lang_ru;;*);
 	<- rrel_key_sc_element: nreal_reaction_definition
 	(*
-	<- sc_definition;;
+	<- sc_explanation;;
 	=> nrel_main_idtf:
 		[Опр.(реакция)](*<-lang_ru;;*);;
 	<=nrel_sc_text_translation:...

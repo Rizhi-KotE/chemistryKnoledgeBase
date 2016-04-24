@@ -10,7 +10,7 @@ external_shell
 	(*
 		=> nrel_main_idtf:
 			[Опр.(внешняя электронная оболочка)](* <-lang_ru;; *);;
-		<- sc_definition;;
+		<- sc_explanation;;
 		<= nrel_sc_text_translation:...
 			(*
 				-> rrel_example:"file://external_shell_ru.html" (* <-lang_ru;;*);;
