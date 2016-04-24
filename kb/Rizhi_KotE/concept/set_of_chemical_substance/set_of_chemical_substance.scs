@@ -1,5 +1,0 @@
-set_of_chemical_substance
-	<- sc_node_not_relation;
-	<=nrel_main_idtf:
-		[set of chemical substance](*<- lang_en;;*);
-		[множество химических веществ] (*<- lang_ru;;*);;
