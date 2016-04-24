@@ -6,7 +6,7 @@ metal
 	(*
 		=> nrel_main_idtf:
 			[Опр.(металл)](*<-lang_ru;; *);;
-		<- sc_definition;;
+		<- sc_explanation;;
 		<= nrel_sc_text_translation:...
 		(*
 			-> rrel_example:
