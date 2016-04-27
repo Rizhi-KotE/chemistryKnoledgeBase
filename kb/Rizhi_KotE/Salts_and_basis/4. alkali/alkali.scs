@@ -1,4 +1,4 @@
-alkali <= nrel_inclusion: basis;;
+alkali <= nrel_inclusion: concept_basis;;
 alkali
 	=> nrel_main_idtf: [alkali](*<- lang_en;;*);
 						[щелочь](*<- lang_ru;;*);

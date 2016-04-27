@@ -1,4 +1,4 @@
-basis_salt <= nrel_inclusion: salt;;
+basis_salt <= nrel_inclusion: concept_salt;;
 basis_salt
 	=> nrel_main_idtf: [basis_salt](*<- lang_en;;*);
 						[основные соли](*<- lang_ru;;*);

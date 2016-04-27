@@ -1,4 +1,4 @@
-acid_salt <= nrel_inclusion: salt;;
+acid_salt <= nrel_inclusion: concept_salt;;
 acid_salt
 	=> nrel_main_idtf: [acid_salt](*<- lang_en;;*);
 						[кислые соли](*<- lang_ru;;*);

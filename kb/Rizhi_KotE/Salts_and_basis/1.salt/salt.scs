@@ -1,10 +1,10 @@
-salt <= nrel_inclusion: complex_substance;;
-salt
+concept_salt <= nrel_inclusion: complex_substance;;
+concept_salt
 	<- sc_node_not_relation;
 	=> nrel_main_idtf: 
-		[salt] (*<- lang_en;;*);
+		[concept_salt] (*<- lang_en;;*);
 		[соль] (*<- lang_ru;;*);;
-	salt <- rrel_key_sc_element: salt_definition
+	concept_salt <- rrel_key_sc_element: salt_definition
 	(*
 	=> nrel_main_idtf:
 		[Опр.(соль)](* <-lang_ru;; *);;

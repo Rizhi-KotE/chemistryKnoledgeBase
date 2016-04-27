@@ -10,12 +10,12 @@ unsalt_forming_oxides
                         <= nrel_sc_text_translation:...
                                 (*
                                         -> rrel_example:
-                                                [<b>Несолеобразующие оксиды</b> - <sc_element sys_idtf="oxides">оксиды</sc_element>, не проявляющие ни кислотных, ни основных, ни амфотерных свойств и не образующие <sc_element sys_idtf="salt">соли</sc_element>.]
+                                                [<b>Несолеобразующие оксиды</b> - <sc_element sys_idtf="concept_oxides">оксиды</sc_element>, не проявляющие ни кислотных, ни основных, ни амфотерных свойств и не образующие <sc_element sys_idtf="concept_salt">соли</sc_element>.]
                                                 (*
                                                         <- lang_ru;;
                                                         => nrel_format: format_html;;
                                                 *);
-                                                [<b>Unsalt-forming oxides</b> - <sc_element sys_idtf="oxides">oxides</sc_element> do not show any acidic or basic and amphoteric properties and do not form <sc_element sys_idtf="salt">salts</sc_element>.]
+                                                [<b>Unsalt-forming oxides</b> - <sc_element sys_idtf="concept_oxides">oxides</sc_element> do not show any acidic or basic and amphoteric properties and do not form <sc_element sys_idtf="concept_salt">salts</sc_element>.]
                                                 (*
                                                         <- lang_en;;
                                                         => nrel_format: format_html;;
@@ -26,5 +26,5 @@ unsalt_forming_oxides
         <= nrel_using_constants:
                 {
                         oxides;
-                        salt
+                        concept_salt
                 };;
