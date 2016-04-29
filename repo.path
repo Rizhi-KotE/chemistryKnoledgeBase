@@ -1,12 +1,8 @@
 # common
 ims.ostis.kb_copy
-
-<<<<<<< HEAD
-
-=======
->>>>>>> ostis/master
 # private
 kb
+ims.ostis.kb
 
 # components
 sc-web/components/scg/kb
