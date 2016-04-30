@@ -1,0 +1,32 @@
+section_IFS_chemistry <= nrel_section_decomposition:
+{
+	section_basis_chemical_concepts
+	(*
+		=> nrel_section_base_order: section_chemical_reaction;;
+	*);
+	section_chemical_reaction
+	(*
+		=> nrel_section_base_order: section_inorganics_substances_clases;;
+	*);
+	section_inorganics_substances_clases
+	(*
+		=> nrel_section_base_order: section_periodic_trend;;
+	*);
+	section_periodic_trend
+	(*	
+		=> nrel_section_base_order: section_atom_structure;;
+	*);
+	section_atom_structure
+	(*
+		=> nrel_section_base_order: section_chemical_bond;;
+	*);
+	section_chemical_bond
+	(*
+		=> nrel_section_base_order: section_metals;;
+	*);
+	section_metals
+	(*
+		=> nrel_section_base_order: section_nonmetals;;
+	*);
+	section_nonmetals
+};;

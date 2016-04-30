@@ -1,0 +1,3 @@
+elem_Ne
+	<= nrel_main_idtf: [Neon];
+	<= nrel_idtf: [Ne];;

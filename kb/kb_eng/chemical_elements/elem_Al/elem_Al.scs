@@ -1,0 +1,3 @@
+elem_Al
+	<= nrel_main_idtf: [Aluminum];
+	<= nrel_idtf: [Al];;

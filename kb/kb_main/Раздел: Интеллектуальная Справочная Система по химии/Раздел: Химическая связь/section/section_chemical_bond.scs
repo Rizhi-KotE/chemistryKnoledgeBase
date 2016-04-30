@@ -1,0 +1,4 @@
+section_chemical_bond ->IFS_chemistry_decomposition;;
+
+section_chemical_bond => nrel_section_base_order: section_metals;;
+section_chemical_bond <= nrel_section_decomposition: section_chemical_bond_decomposition;;

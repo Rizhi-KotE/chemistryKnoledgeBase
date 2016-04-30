@@ -1,0 +1,3 @@
+elem_Sr
+	<= nrel_main_idtf: [Strontium];
+	<= nrel_idtf: [Sr];;

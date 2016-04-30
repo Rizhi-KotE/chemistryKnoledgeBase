@@ -1,0 +1,3 @@
+section_salts <- inorganics_substances_clases_decomposition;;
+
+section_salts <= nrel_section_decomposition: section_salts_decomposition;;

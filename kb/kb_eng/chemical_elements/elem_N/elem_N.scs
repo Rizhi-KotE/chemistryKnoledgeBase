@@ -1,0 +1,3 @@
+elem_N
+	<= nrel_main_idtf: [Nitrogen];
+	<= nrel_idtf: [N];;

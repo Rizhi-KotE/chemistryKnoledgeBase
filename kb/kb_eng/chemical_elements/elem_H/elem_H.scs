@@ -1,0 +1,3 @@
+elem_H
+	<= nrel_main_idtf: [Hydrogen];
+	<= nrel_idtf: [H];;

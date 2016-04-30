@@ -1,0 +1,3 @@
+elem_Ba
+	<= nrel_main_idtf: [Barium];
+	<= nrel_idtf: [Ba];;

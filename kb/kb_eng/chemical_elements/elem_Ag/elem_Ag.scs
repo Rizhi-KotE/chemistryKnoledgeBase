@@ -1,0 +1,3 @@
+elem_Ag
+	<= nrel_main_idtf: [Silver];
+	<= nrel_idtf: [Ag];;

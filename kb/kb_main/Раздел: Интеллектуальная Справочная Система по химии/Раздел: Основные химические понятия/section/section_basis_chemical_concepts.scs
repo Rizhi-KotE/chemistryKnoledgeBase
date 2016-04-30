@@ -1,0 +1,3 @@
+section_basis_chemical_concepts -> IFS_chemistry_decomposition;;
+
+section_basis_chemical_concepts <= nrel_section_decomposition: section_basis_chemical_concepts_decomposition;;

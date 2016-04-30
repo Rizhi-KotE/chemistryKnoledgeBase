@@ -1,0 +1,3 @@
+elem_F
+	<= nrel_main_idtf: [Fluorine];
+	<= nrel_idtf: [F];;

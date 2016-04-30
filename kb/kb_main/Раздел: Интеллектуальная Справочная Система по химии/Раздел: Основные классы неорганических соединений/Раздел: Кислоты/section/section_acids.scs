@@ -1,0 +1,4 @@
+section_acids <- inorganics_substances_clases_decomposition;;
+
+section_acids => nrel_section_base_order: section_basis;;
+section_oxides <= nrel_section_decomposition: section_oxides_decomposition;;
