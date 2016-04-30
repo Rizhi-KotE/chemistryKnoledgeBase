@@ -1,21 +1,11 @@
-<<<<<<< HEAD
 concept_salt <= nrel_inclusion: complex_substance;;
 concept_salt
 	<- sc_node_not_relation;
 	=> nrel_main_idtf: 
 		[concept_salt] (*<- lang_en;;*);
 		[соль] (*<- lang_ru;;*);;
-	concept_salt <- rrel_key_sc_element: salt_definition
-=======
-salt <= nrel_inclusion: complex_substance;;
-salt
-	<- sc_node_not_relation;
-	=> nrel_main_idtf: 
-		[salt] (*<- lang_en;;*);
-		[соль] (*<- lang_ru;;*);;
-	salt <- rrel_key_sc_element: salt_definition
->>>>>>> 138d606b06b05e344863cb3eafc6dda55a8fb9a6
-	(*
+salt <- rrel_key_sc_element: salt_definition
+(*
 	=> nrel_main_idtf:
 		[Опр.(соль)](* <-lang_ru;; *);;
 	<- sc_explanation;;
@@ -23,10 +13,10 @@ salt
 		(*
 		-> rrel_example:"file://salt_ru.html" (* <-lang_ru;;*);;
 		*);;
-	*);
-	<= nrel_using_constants:
-		{
-			metal;
-			acid_residue
-		};;
+*);
+<= nrel_using_constants:
+{
+	metal;
+	acid_residue
+};;
 	

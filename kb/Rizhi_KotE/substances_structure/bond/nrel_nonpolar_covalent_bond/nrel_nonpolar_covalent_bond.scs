@@ -6,11 +6,7 @@ nrel_nonpolar_covalent_bond
 			[неполярная ковалентная связь](*<- lang_ru;;*);
 	<- rrel_key_sc_element:nrel_nonpolar_covalent_bond_definition
 	(*
-<<<<<<< HEAD
 		<- sc_explanation;;
-=======
-		<- sc_definition;;
->>>>>>> 138d606b06b05e344863cb3eafc6dda55a8fb9a6
 		=> nrel_main_idtf: 
 			[Опр. (неполярная ковалентная связь)](*<- lang_ru;;*);;
 		<= nrel_sc_text_translation:...

@@ -29,4 +29,6 @@ section_IFS_chemistry <= nrel_section_decomposition:
 		=> nrel_section_base_order: section_nonmetals;;
 	*);
 	section_nonmetals
-};;
+};
+
+<- ui_start_sc_element;;
