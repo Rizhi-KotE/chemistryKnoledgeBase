@@ -1,7 +1,11 @@
 basis <= nrel_inclusion: complex_substance;;
 basis
 	=> nrel_main_idtf: 
+<<<<<<< HEAD
 		[concept_basis](*<- lang_en;;*);
+=======
+		[basis](*<- lang_en;;*);
+>>>>>>> 138d606b06b05e344863cb3eafc6dda55a8fb9a6
 		[основание](*<- lang_ru;;*);
 	<- rrel_key_sc_element: basis_definition
 	(*
