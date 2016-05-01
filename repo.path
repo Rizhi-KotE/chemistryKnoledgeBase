@@ -2,7 +2,6 @@
 ims.ostis.kb_copy
 # private
 kb
-ims.ostis.kb
 
 # components
 sc-web/components/scg/kb
