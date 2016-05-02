@@ -11,5 +11,5 @@ Grunt*.js
 grunt*.js
 *.json
 web-scn-editor
-
+geometry*
 *.*~
