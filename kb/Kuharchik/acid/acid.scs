@@ -54,6 +54,6 @@ acid
                 {
                         molecule;
                         atom;
-                        metal;
+                        concept_metal;
                         acid_residue
                 };;

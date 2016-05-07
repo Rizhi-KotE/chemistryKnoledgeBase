@@ -45,4 +45,5 @@ nrel_chemical_bond
 		};;
 	*);
 	=> nrel_second_domain:atom;
-	=> nrel_first_domain:atom;;
+	=> nrel_first_domain:atom;
+	 <- rrel_key_sc_element: section_chemical_bond;;

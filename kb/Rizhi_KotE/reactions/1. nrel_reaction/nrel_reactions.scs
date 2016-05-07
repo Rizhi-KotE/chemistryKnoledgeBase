@@ -20,8 +20,8 @@ nrel_reaction
 	*);
 	<= nrel_using_constants:
 	{
-		reagent;
-		product
+		rrel_reagent;
+		rrel_product
 	};
 	<- rrel_key_sc_element:
 		the_law_of_conservation_of_mass
@@ -37,7 +37,7 @@ nrel_reaction
 			*);;
 		<= nrel_using_constants:
 			{
-				reagent;
-				product
+				rrel_reagent;
+				rrel_product
 			};;
 		*);;

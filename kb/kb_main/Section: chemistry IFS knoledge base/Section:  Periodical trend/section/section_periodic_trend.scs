@@ -1,4 +1,1 @@
-section_periodic_trend -> IFS_chemistry_decomposition;;
-
-section_periodic_trend => nrel_section_base_order: section_atom_structure;;
 section_periodic_trend <= nrel_section_decomposition: section_periodic_trend_decomposition;;

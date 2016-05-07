@@ -4,6 +4,7 @@ nrel_nonpolar_covalent_bond
 	=> nrel_main_idtf: 
 			[nonpolar covalent bond](*<- lang_en;;*);
 			[неполярная ковалентная связь](*<- lang_ru;;*);
+	<- rrel_key_sc_element:section_chemical_bond;
 	<- rrel_key_sc_element:nrel_nonpolar_covalent_bond_definition
 	(*
 		<- sc_explanation;;

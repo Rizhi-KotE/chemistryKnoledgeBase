@@ -1,7 +1,7 @@
-metal <= nrel_inclusion: elementary_substance;;
-metal
-	=> nrel_main_idtf: [concept_metal](*<- lang_en;;*);
-						[металл](*<- lang_ru;;*);
+concept_metal
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: [metal](*<- lang_en;;*);
+					[металл](*<- lang_ru;;*);
 	<- rrel_key_sc_element: metal_definition
 	(*
 		=> nrel_main_idtf:
@@ -14,3 +14,4 @@ metal
 				(*<- lang_ru;;*);;
 		*);;
 	*);;
+section_metals -> rrel_key_sc_element: concept_metal;;

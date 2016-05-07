@@ -1,3 +1,1 @@
-section_nonmetals -> IFS_chemistry_decomposition;;
 
-section_nonmetals <= nrel_section_decomposition: section_nonmetals_decomposition;;

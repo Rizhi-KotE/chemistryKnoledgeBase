@@ -1,4 +1,3 @@
-alkali_metal <= nrel_inclusion: metal;;
 alkali_metal
 	=> nrel_main_idtf: [alkali_metal](*<- lang_en;;*);
 						[щелочной металл](*<- lang_ru;;*);
@@ -11,5 +10,6 @@ alkali_metal
 				"file://alkali_metal_ru.html"
 				(*<- lang_ru;;*);;
 		*);;
-	*);;
+	*);
+	<- rrel_key_sc_element: section_metals;;
 	

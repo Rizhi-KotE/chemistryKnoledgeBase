@@ -1,4 +1,1 @@
-section_atom_structure-> IFS_chemistry_decomposition;;
-
-section_atom_structure => nrel_section_base_order: section_chemical_bond;;
 section_atom_structure <= nrel_section_decomposition: section_atom_structure_decomposition;;

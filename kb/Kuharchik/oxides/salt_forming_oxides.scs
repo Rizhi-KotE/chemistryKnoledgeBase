@@ -33,7 +33,7 @@ salt_forming_oxides
                 {
                         oxides;
                         nonmetal;
-                        metal;
+                        concept_metal;
                         concept_acid;
                         concept_basis;
                         concept_salt

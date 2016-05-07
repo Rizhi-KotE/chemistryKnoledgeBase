@@ -44,6 +44,6 @@ basic_oxides
         <= nrel_using_constants:
                 {
                         oxides;
-                        metal;
+                        concept_metal;
                         acid 
                 };;

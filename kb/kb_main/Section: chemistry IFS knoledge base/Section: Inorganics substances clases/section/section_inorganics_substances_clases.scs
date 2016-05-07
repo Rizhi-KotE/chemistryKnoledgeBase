@@ -1,4 +1,2 @@
-section_inorganics_substances_clases->IFS_chemistry_decomposition;;
 
 section_inorganics_substances_clases <= nrel_section_decomposition: inorganics_substances_clases_decomposition;;
-section_inorganics_substances_clases => nrel_section_base_order: section_periodic_trend;;

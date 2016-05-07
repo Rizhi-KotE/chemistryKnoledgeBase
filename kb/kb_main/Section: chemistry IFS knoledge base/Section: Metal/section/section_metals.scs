@@ -1,4 +1,0 @@
-section_metals -> IFS_chemistry_decomposition;;
-
-section_metals => nrel_section_base_order: section_nonmetals;;
-section_metals <= nrel_section_decomposition: section_metals_decomposition;;

@@ -1,4 +1,6 @@
 complex_substance <= nrel_inclusion: substance;;
+complex_substance <- sc_node_not_relation;;
+
 complex_substance
 	=> nrel_main_idtf: [complex_substance](*<- lang_en;;*);
 						[сложное вещество](*<- lang_ru;;*);

@@ -1,5 +1,6 @@
-nonmetal <= nrel_inclusion: elementary_substance;;
 nonmetal
+
+	<- sc_node_not_relation;
   => nrel_main_idtf: [concept_nonmetal](*<- lang_en;;*);	[неметалл](*<- lang_ru;;*);
   <- rrel_key_sc_element:...
 	(*
@@ -10,5 +11,6 @@ nonmetal
 		  "file://nonmetal_ru.html"
 		  (*<- lang_ru;;*);;
 		*);;
-	  *);;
+	  *);
+<- rrel_key_sc_element: section_nonmetals;;
 	

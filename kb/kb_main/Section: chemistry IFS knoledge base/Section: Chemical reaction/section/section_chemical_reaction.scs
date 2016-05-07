@@ -1,4 +1,1 @@
-section_chemical_reaction -> IFS_chemistry_decomposition;;
-
-section_chemical_reaction => nrel_section_base_order: section_inorganics_substances_clases;;
 section_inorganics_substances_clases <= nrel_section_decomposition: section_inorganics_substances_clases_decomposition;;

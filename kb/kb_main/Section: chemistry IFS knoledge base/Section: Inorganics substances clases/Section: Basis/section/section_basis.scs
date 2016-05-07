@@ -1,4 +1,2 @@
-section_basis <- inorganics_substances_clases_decomposition;;
-
 section_basis => nrel_section_base_order: section_salts;;
 section_basis <= nrel_section_decomposition: section_basis_decomposition;;

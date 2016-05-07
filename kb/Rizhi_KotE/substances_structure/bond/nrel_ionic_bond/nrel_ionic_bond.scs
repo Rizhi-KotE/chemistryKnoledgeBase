@@ -4,6 +4,7 @@ nrel_ionic_bond
 	=> nrel_main_idtf: 
 			[ionic bond](*<- lang_en;;*);
 			[ионная связь](*<- lang_ru;;*);
+	<- rrel_key_sc_element:section_chemical_bond;
 	<- rrel_key_sc_element:nrel_ionic_bond_definition
 	(*
 		<- sc_explanation;;
@@ -32,7 +33,7 @@ nrel_ionic_bond
 		<= nrel_using_constants: 
 		{
 			nrel_ionic_bond;
-			typical_metal;
+			typical_concept_metal;
 			nonmetal
 		};;
 	*);

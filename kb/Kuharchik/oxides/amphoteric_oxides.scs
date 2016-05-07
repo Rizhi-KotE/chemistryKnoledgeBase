@@ -44,5 +44,5 @@ amphoteric_oxides
         <= nrel_using_constants:
                 {
                         salt_forming_oxides;
-                        metal
+                        concept_metal
                 };;

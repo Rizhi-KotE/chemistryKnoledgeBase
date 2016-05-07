@@ -14,7 +14,8 @@ basis_salt
 	*);
 <= nrel_using_constants:
 	{
-		metal;
+		concept_metal;
 		acid_residue;
 		hydroxyl_group
-	};;
+	};
+	<- rrel_key_sc_element: section_salts;;
