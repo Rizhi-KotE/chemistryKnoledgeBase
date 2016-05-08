@@ -28,17 +28,17 @@ proc_of_classificate_substance
 
         -> .proc_of_classificate_check_already_classified (*
             <- searchElStr5;;
-            -> rrel_1: rrel_assign: rrel_scp_var:   _class;;
-            -> rrel_2: rrel_assign: rrel_scp_var:   _arc_from_subst;;
-            -> rrel_3: rrel_fixed:  rrel_scp_var:   _subst;;
-            -> rrel_4: rrel_assign: rrel_scp_var:   _acces_nrel_class;;
-            -> rrel_5: rrel_fixed:  rrel_scp_const: nrel_class;;
+            -> rrel_1: rrel_fixed: rrel_scp_var:     _subst;;
+            -> rrel_2: rrel_assign: rrel_scp_var:    _arc_from_subst;;
+            -> rrel_3: rrel_assign:  rrel_scp_var:   _class;;
+            -> rrel_4: rrel_assign: rrel_scp_var:    _acces_nrel_class;;
+            -> rrel_5: rrel_fixed:  rrel_scp_const:  nrel_class;;
 
-            => nrel_then: proc_of_classificate_substance_already_classified;;
+            => nrel_then: .proc_of_classificate_substance_already_classified;;
             => nrel_else: .proc_of_classificate_check_acces_to_substance;;
         *);;
 
-        -> proc_of_classificate_substance_already_classified (*
+        -> .proc_of_classificate_substance_already_classified (*
 
             <- printNl;;
 
@@ -89,7 +89,7 @@ proc_of_classificate_substance
             -> rrel_5: rrel_fixed: rrel_scp_const:  nrel_subdividing;;
 
             => nrel_then: .proc_of_classificate_substance_add_new_classes_B;;
-            => nrel_else: .proc_of_classificate_substance_class_finded;;
+            => nrel_else: .proc_of_classificate_substance_class_finded_A;;
         *);;
 
         
@@ -123,7 +123,7 @@ proc_of_classificate_substance
             -> rrel_5: rrel_fixed: rrel_scp_const:  rrel_else;;
 
             => nrel_then: .proc_of_classificate_substance_add_new_classes_A;;
-            => nrel_else: .proc_of_classificate_substance_create_answer;;
+            => nrel_else: .proc_of_classificate_substance_create_answer_print;;
         *);;
 
 
@@ -135,12 +135,24 @@ proc_of_classificate_substance
             => nrel_goto: .proc_of_classificate_substance_operator_1B;;
         *);;
 
-        -> .proc_of_classificate_substance_create_answer(*
+        -> .proc_of_classificate_substance_create_answer_print(*
             <- printNl;;
 
             -> rrel_1: rrel_fixed: rrel_scp_const: [create answer];;
 
-            => nrel_goto: .proc_of_classificate_substance_operator_return_not_classified;;
+            => nrel_goto: .proc_of_classificate_substance_create_answer_A;;
+        *);;
+
+        -> .proc_of_classificate_substance_create_answer_A(*
+            <- genElStr5;;
+
+            -> rrel_1: rrel_fixed:  rrel_scp_var:                                   _subst;;
+            -> rrel_2: rrel_assign: rrel_scp_var: rrel_const: rrel_arc_common:      _arc1;;
+            -> rrel_3: rrel_fixed:  rrel_var:                                       _class;;
+            -> rrel_4: rrel_assign: rrel_scp_var: rrel_pos_const_perm:              _arc2;;
+            -> rrel_5: rrel_fixed:  rrel_const:                                     nrel_class;;
+
+            => nrel_goto: .proc_of_classificate_substance_operator_return_print;;
         *);;
 
         -> .proc_of_classificate_substance_operator_1B (*
@@ -168,35 +180,6 @@ proc_of_classificate_substance
             -> rrel_3: rrel_assign: rrel_scp_var:    _explanation;;
             -> rrel_4: rrel_assign: rrel_scp_var:    _arc2;;
             -> rrel_5: rrel_fixed:  rrel_scp_const:  nrel_class_definition;;
-
-
-            => nrel_then: .proc_of_classificate_substance_operator_get_variables;;
-            => nrel_else: .proc_of_classificate_substance_operator_1A;;
-
-        *);;
-
-        -> .proc_of_classificate_substance_operator_get_variables (*
-            <- searchElStr5;;
-
-            -> rrel_1: rrel_fixed:  rrel_scp_var:    _explanation;;
-            -> rrel_2: rrel_assign: rrel_scp_var:    _arc1;;
-            -> rrel_3: rrel_assign: rrel_scp_var:    _variables;;
-            -> rrel_4: rrel_assign: rrel_scp_var:    _arc2;;
-            -> rrel_5: rrel_fixed:  rrel_scp_const:  rrel_bind_variables;;
-
-
-            => nrel_then: .proc_of_classificate_substance_operator_get_current_substance_variable;;
-            => nrel_else: .proc_of_classificate_substance_operator_1A;;
-
-        *);;
-
-
-        -> .proc_of_classificate_substance_operator_get_current_substance_variable (*
-            <- searchElStr3;;
-
-            -> rrel_1: rrel_fixed:  rrel_scp_var:    _variables;;
-            -> rrel_2: rrel_assign: rrel_scp_var:    _arc1;;
-            -> rrel_3: rrel_assign: rrel_scp_var:    _current_substance;;
 
 
             => nrel_then: .proc_of_classificate_substance_get_premiss_print;;
@@ -228,29 +211,33 @@ proc_of_classificate_substance
 
         -> .proc_of_classificate_substance_check_premiss_print (*
 
-            <- printEl;;
+            <- printNl;;
 
           ->  rrel_1: rrel_fixed: rrel_scp_const: [check premiss];;
-          => nrel_goto: .proc_of_classificate_substance_check_premiss;;
+          => nrel_goto: .proc_of_classificate_substance_check_premiss_A;;
         *);;
 
         
-        -> .proc_of_classificate_substance_check_premiss(*
+        -> .proc_of_classificate_substance_check_premiss_A(*
             <- sys_search;;
 
             -> rrel_1: rrel_fixed:  rrel_scp_var:    _premiss;;
             -> rrel_2: rrel_assign: rrel_scp_var:    ...;;
-            -> rrel_3: rrel_fixed: rrel_scp_const:   ...
-            (*
-                ->...
-                (*
-                    -> rrel_1: rrel_fixed: rrel_scp_var:  _current_substance;;
-                    -> rrel_2: rrel_fixed: rrel_scp_var:  _subst;;
-                *);;
-            *);;
+            -> rrel_3: rrel_fixed: rrel_scp_const:   ...;;
+            -> rrel_4: rrel_assign: rrel_scp_var:    _all_results;;
 
-            => nrel_then: .proc_of_classificate_substance_check_is_proved_print;;
+            => nrel_then: .proc_of_classificate_substance_check_is_proved_to_print;;
             => nrel_else: .proc_of_classificate_substance_operator_1A;;
+        *);;
+
+        -> .proc_of_classificate_substance_check_is_proved_to_print(*
+            <- eraseSetStr3;;
+
+            -> rrel_1: rrel_fixed:  rrel_scp_var:               _all_results;;
+            -> rrel_2: rrel_assign: rrel_scp_var:  rrel_erase:  ...;;
+            -> rrel_3: rrel_assign:  rrel_scp_var:              _elem;;
+
+            => nrel_goto: .proc_of_classificate_substance_check_is_proved_print;;
         *);;
 
         -> .proc_of_classificate_substance_check_is_proved_print (*
@@ -324,7 +311,7 @@ proc_of_classificate_substance
             -> rrel_5: rrel_fixed: rrel_scp_const:  nrel_subdividing;;
 
             => nrel_then: .proc_of_classificate_substance_add_new_classes_B;;
-            => nrel_else: .proc_of_classificate_substance_class_finded;;
+            => nrel_else: .proc_of_classificate_substance_class_finded_A;;
         *);;
 
         -> .proc_of_classificate_substance_add_new_classes_B(*
@@ -339,21 +326,40 @@ proc_of_classificate_substance
             -> rrel_set_3: rrel_assign: rrel_scp_var:   _set_of_oppotunity_classes;;
 
             => nrel_then: .proc_of_classificate_substance_add_class_to_substance_A;;
-            => nrel_else: .proc_of_classificate_substance_class_finded;;
+            => nrel_else: .proc_of_classificate_substance_class_finded_A;;
         *);;
 
-        -> .proc_of_classificate_substance_class_finded (*
+        -> .proc_of_classificate_substance_class_finded_A (*
+            <- searchElStr3;;
+            -> rrel_1: rrel_fixed: rrel_scp_var: _aprove;;
+            -> rrel_2: rrel_assign: rrel_scp_var: _arc;;
+            -> rrel_3: rrel_assign: rrel_scp_var: _class;;
+            
+          => nrel_then: .proc_of_classificate_substance_class_finded_B;;
+          => nrel_else: .proc_of_classificate_substance_incorect_aprove;;
+        *);;
+
+        -> .proc_of_classificate_substance_incorect_aprove (*
+            <- printNl;;
+            -> rrel_1: rrel_fixed: rrel_scp_const: [incorect aprove];;
+            
+          => nrel_then: .proc_of_classificate_substance_operator_return_not_classified;;
+        *);;
+
+        -> .proc_of_classificate_substance_class_finded_B (*
             <- printEl;;
             -> rrel_1: rrel_fixed: rrel_scp_var: _class;;
             
-          => nrel_goto: .proc_of_classificate_substance_operator_return;;
+          => nrel_then: .proc_of_classificate_substance_create_answer_print;;
         *);;
 
         -> .proc_of_classificate_substance_operator_return_print (*
-        <- genElStr3;;
+        <- genElStr5;;
             -> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
-            -> rrel_2: rrel_assign: rrel_const: rrel_common: rrel_const: rrel_scp_var: _arc;;
+            -> rrel_2: rrel_assign: rrel_common: rrel_scp_var: _arc;;
             -> rrel_3: rrel_assign: rrel_scp_var: [succes];;
+            -> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
+            -> rrel_5: rrel_fixed: rrel_scp_const: nrel_sc_text_translation;;
             
           => nrel_goto: .proc_of_classificate_substance_operator_return;;
         *);;
