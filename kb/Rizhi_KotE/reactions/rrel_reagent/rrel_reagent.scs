@@ -1,0 +1,7 @@
+rrel_reagent
+	<- sc_node_role_relation;
+	=> nrel_main_idtf:
+	[реагент реакции*](*<- lang_ru;;*);
+	[reaction reagent*](*<- lang_en;;*);
+	=> first_domain: nrel_reaction;
+	=> second_domain: substance;;

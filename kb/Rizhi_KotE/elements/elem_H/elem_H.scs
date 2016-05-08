@@ -1,0 +1,29 @@
+elem_H 
+	=> nrel_main_idtf:
+	[водород](*<-lang_ru;;*);
+	<- rrel_key_sc_element:elem_H_definition(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [Опр. (водород)](* <- lang_ru;;*);;
+		<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:
+				"file://elem_H.html"(*<- lang_ru;;*);;
+		*);;
+		<= nrel_using_constants:{
+			periodic_table
+		};;
+	*);
+	<- rrel_key_sc_element:reaction_H_O(*
+		<- sc_explanation;;
+		=> nrel_main_idtf: [Взаимодействие водорода и кислорода](* <- lang_ru;;*);;
+		<= nrel_sc_text_translation:...
+		(*
+			-> rrel_example:
+				"file://reaction_H_O.html"(*<- lang_ru;;*);;
+		*);;
+		<= nrel_using_constants:{
+			elem_H;
+			elem_O;
+			water
+		};;
+	*);;
