@@ -1,0 +1,10 @@
+ui_menu_chemistry_commands
+<- ui_user_command_class_noatom;
+=> nrel_main_idtf:
+	[Команды для работы с веществами] (* <- lang_ru;; *);
+	[Commands for working with substances] (* <- lang_en;; *);
+
+<= nrel_ui_commands_decomposition:
+{
+	ui_menu_file_for_classificate_substance
+};;
