@@ -1,0 +1,12 @@
+nrel_atomic_number <- sc_node_norole_relation;
+=> nrel_main_idtf:[атомное число*](*<-lang_ru;;*);;
+nrel_atomic_number <- sc_node_norole_relation;
+=> nrel_main_idtf:[атомное число*](*<-lang_ru;;*);;
+nrel_atomic_number <- sc_node_norole_relation;
+=> nrel_main_idtf:[атомное число*](*<-lang_ru;;*);;
+nrel_electronegativity <- sc_node_norole_relation;
+=> nrel_main_idtf:[электроотрицательность*](*<-lang_ru;;*);;
+nrel_oxidation_states <- sc_node_norole_relation;
+=> nrel_main_idtf:[степень окисления*](*<-lang_ru;;*);;
+periodic_table <- sc_node_no_relation;
+=> nrel_main_idtf:[периодическая таблица](*<-lang_ru;;*);;

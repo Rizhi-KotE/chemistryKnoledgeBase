@@ -1,0 +1,7 @@
+rrel_product
+	<- sc_node_role_relation;
+	=> nrel_main_idtf:
+	[продукт реакции*](*<- lang_ru;;*);
+	[reaction product*](*<- lang_en;;*);
+	=> first_domain: nrel_reaction;
+	=> second_domain: substance;;
