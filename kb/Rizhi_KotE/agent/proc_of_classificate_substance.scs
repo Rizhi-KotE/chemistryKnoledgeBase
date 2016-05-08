@@ -10,15 +10,23 @@ proc_of_classificate_substance
 
     -> rrel_operators: ... (*
 
-        -> rrel_init: .agent_of_classificate_operator_gen_answer 
+        -> rrel_init: .agent_of_classificate_init_print 
+        (*
+            <- printEl;;
+            -> rrel_1: rrel_fixed: rrel_scp_const: _subst;;
+
+            => nrel_goto: .agent_of_classificate_init_A;;
+        *);;
+
+        -> .agent_of_classificate_init_A
         (*
             <- genEl;;
             -> rrel_1: rrel_assign: rrel_const: rrel_node: rrel_scp_var: _answer;;
 
-            => nrel_goto: .agent_of_classificate_gen_set_of_added_arcs;;
+            => nrel_goto: .agent_of_classificate_init_B;;
         *);;
 
-        -> .agent_of_classificate_gen_set_of_added_arcs 
+        -> .agent_of_classificate_init_B
         (*
             <- genEl;;
             -> rrel_1: rrel_assign: rrel_const: rrel_node: rrel_scp_var: _added_arcs;;
@@ -343,21 +351,21 @@ proc_of_classificate_substance
             <- printNl;;
             -> rrel_1: rrel_fixed: rrel_scp_const: [incorect aprove];;
             
-          => nrel_then: .proc_of_classificate_substance_operator_return_not_classified;;
+          => nrel_goto: .proc_of_classificate_substance_operator_return_not_classified;;
         *);;
 
         -> .proc_of_classificate_substance_class_finded_B (*
             <- printEl;;
             -> rrel_1: rrel_fixed: rrel_scp_var: _class;;
             
-          => nrel_then: .proc_of_classificate_substance_create_answer_print;;
+          => nrel_goto: .proc_of_classificate_substance_create_answer_print;;
         *);;
 
         -> .proc_of_classificate_substance_operator_return_print (*
         <- genElStr5;;
             -> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
             -> rrel_2: rrel_assign: rrel_common: rrel_scp_var: _arc;;
-            -> rrel_3: rrel_assign: rrel_scp_var: [succes];;
+            -> rrel_3: rrel_assign: rrel_scp_var:rrel_link: [succes];;
             -> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
             -> rrel_5: rrel_fixed: rrel_scp_const: nrel_sc_text_translation;;
             
@@ -369,7 +377,7 @@ proc_of_classificate_substance
             <- genElStr5;;
             -> rrel_1: rrel_fixed: rrel_scp_var: _answer;;
             -> rrel_2: rrel_assign: rrel_common: rrel_scp_var: _arc;;
-            -> rrel_3: rrel_fixed: rrel_scp_const: [Конструкции по шаблону не найдено];;
+            -> rrel_3: rrel_fixed: rrel_scp_const: rrel_link: [Конструкции по шаблону не найдено];;
             -> rrel_4: rrel_assign: rrel_pos_const_perm: rrel_scp_var: _arc2;;
             -> rrel_5: rrel_fixed: rrel_scp_const: nrel_sc_text_translation;;
 
