@@ -1,36 +1,35 @@
 elem_Ta
-	<= nrel_atomic_number: ...
+	<= nrel_atomic_weight: ...
 	(*
-		<- concept_quantity;;
-		<= nrel_value: ...
+		<- value;;
+		=> nrel_maybe_value: ...
 		(*
-			-> 73(*<- number;;*);;
-		*);;
-	*);
-<= nrel_atomic_weight: ...
-	(*
-		<- concept_quantity;;
-		<= nrel_value: ...
-		(*
-			-> 180.9479(*<- number;;*);;
+			-> [180.9479](*<- number;;*);;
 		*);;
 	*);
 <= nrel_electronegativity: ...
 	(*
-		<- concept_quantity;;
-		<= nrel_value: ...
+		<- value;;
+		=> nrel_maybe_value: ...
 		(*
-			-> 1.5(*<- number;;*);;
+			-> [1.5](*<- number;;*);;
 		*);;
 	*);
 <= nrel_oxidation_states: ...
 	(*
-		<- concept_quantity;;
-		<= nrel_value: ...
+		<- value;;
+		=> nrel_maybe_value: ...
 		(*
-			-> 5(*<- number;;*);;
+			-> [5](*<- number;;*);;
+		*);;
+	*);
+<= nrel_atomic_number: ...
+	(*
+		<- value;;
+		=> nrel_maybe_value: ...
+		(*
+			-> [73](*<- number;;*);;
 		*);;
 	*);
 
-
-	<- rrel_periodic_row6:  rrel_periodic_column5: periodic_table;;
+<- rrel_periodic_metal:  rrel_periodic_row_6:  rrel_periodic_group_2: periodic_table;;

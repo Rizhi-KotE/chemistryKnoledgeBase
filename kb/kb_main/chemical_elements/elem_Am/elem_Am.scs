@@ -1,60 +1,59 @@
 elem_Am
-	<= nrel_atomic_number: ...
+	<= nrel_atomic_weight: ...
 	(*
-		<- concept_quantity;;
-		<= nrel_value: ...
+		<- value;;
+		=> nrel_maybe_value: ...
 		(*
-			-> 95(*<- number;;*);;
-		*);;
-	*);
-<= nrel_atomic_weight: ...
-	(*
-		<- concept_quantity;;
-		<= nrel_value: ...
-		(*
-			-> 243.0614(*<- number;;*);;
+			-> [243.0614](*<- number;;*);;
 		*);;
 	*);
 <= nrel_electronegativity: ...
 	(*
-		<- concept_quantity;;
-		<= nrel_value: ...
+		<- value;;
+		=> nrel_maybe_value: ...
 		(*
-			-> 1.3(*<- number;;*);;
+			-> [1.3](*<- number;;*);;
 		*);;
 	*);
 <= nrel_oxidation_states: ...
 	(*
-		<- concept_quantity;;
-		<= nrel_value: ...
+		<- value;;
+		=> nrel_maybe_value: ...
 		(*
-			-> 3(*<- number;;*);;
+			-> [3](*<- number;;*);;
 		*);;
 	*);
 <= nrel_oxidation_states: ...
 	(*
-		<- concept_quantity;;
-		<= nrel_value: ...
+		<- value;;
+		=> nrel_maybe_value: ...
 		(*
-			-> 4(*<- number;;*);;
+			-> [4](*<- number;;*);;
 		*);;
 	*);
 <= nrel_oxidation_states: ...
 	(*
-		<- concept_quantity;;
-		<= nrel_value: ...
+		<- value;;
+		=> nrel_maybe_value: ...
 		(*
-			-> 5(*<- number;;*);;
+			-> [5](*<- number;;*);;
 		*);;
 	*);
 <= nrel_oxidation_states: ...
 	(*
-		<- concept_quantity;;
-		<= nrel_value: ...
+		<- value;;
+		=> nrel_maybe_value: ...
 		(*
-			-> 6(*<- number;;*);;
+			-> [6](*<- number;;*);;
+		*);;
+	*);
+<= nrel_atomic_number: ...
+	(*
+		<- value;;
+		=> nrel_maybe_value: ...
+		(*
+			-> [95](*<- number;;*);;
 		*);;
 	*);
 
-
-	<- rrel_periodic_row9:  rrel_periodic_column10: periodic_table;;
+<- rrel_periodic_metal:  rrel_periodic_row_9:  rrel_periodic_group_2: periodic_table;;

@@ -1,44 +1,43 @@
 elem_Po
-	<= nrel_atomic_number: ...
+	<= nrel_atomic_weight: ...
 	(*
-		<- concept_quantity;;
-		<= nrel_value: ...
+		<- value;;
+		=> nrel_maybe_value: ...
 		(*
-			-> 84(*<- number;;*);;
-		*);;
-	*);
-<= nrel_atomic_weight: ...
-	(*
-		<- concept_quantity;;
-		<= nrel_value: ...
-		(*
-			-> 208.9824(*<- number;;*);;
+			-> [208.9824](*<- number;;*);;
 		*);;
 	*);
 <= nrel_electronegativity: ...
 	(*
-		<- concept_quantity;;
-		<= nrel_value: ...
+		<- value;;
+		=> nrel_maybe_value: ...
 		(*
-			-> 2.0(*<- number;;*);;
+			-> [2.0](*<- number;;*);;
 		*);;
 	*);
 <= nrel_oxidation_states: ...
 	(*
-		<- concept_quantity;;
-		<= nrel_value: ...
+		<- value;;
+		=> nrel_maybe_value: ...
 		(*
-			-> 2(*<- number;;*);;
+			-> [2](*<- number;;*);;
 		*);;
 	*);
 <= nrel_oxidation_states: ...
 	(*
-		<- concept_quantity;;
-		<= nrel_value: ...
+		<- value;;
+		=> nrel_maybe_value: ...
 		(*
-			-> 4(*<- number;;*);;
+			-> [4](*<- number;;*);;
+		*);;
+	*);
+<= nrel_atomic_number: ...
+	(*
+		<- value;;
+		=> nrel_maybe_value: ...
+		(*
+			-> [84](*<- number;;*);;
 		*);;
 	*);
 
-
-	<- rrel_periodic_row6:  rrel_periodic_column16: periodic_table;;
+<- rrel_periodic_metal:  rrel_periodic_row_6:  rrel_periodic_group_6: periodic_table;;
