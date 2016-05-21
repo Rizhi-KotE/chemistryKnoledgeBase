@@ -3,5 +3,6 @@ rrel_product
 	=> nrel_main_idtf:
 	[продукт реакции*](*<- lang_ru;;*);
 	[reaction product*](*<- lang_en;;*);
+	<- rrel_key_sc_element: section_chemical_reaction;
 	=> first_domain: nrel_reaction;
 	=> second_domain: substance;;

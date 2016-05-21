@@ -1,5 +1,6 @@
 nrel_reaction
 	<-sc_node_norole_relation;
+	<- rrel_key_sc_element: section_chemical_reaction;
 	=> nrel_main_idtf:
 		[nrel_reaction] (*<- lang_en;;*);
 		[химическая реакция] (*<- lang_ru;;*);

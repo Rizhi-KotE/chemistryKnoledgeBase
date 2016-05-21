@@ -1,6 +1,7 @@
 nrel_exchange_reaction
 	<= nrel_inclusion: relation;
 	<- sc_node_norole_realtion;
+	<- rrel_key_sc_element: section_chemical_reaction;
 	=> nrel_main_idtf:
 		[exchange reaction](*<- lang_en;;*);
 		[реакция обмена](*<- lang_ru;;*);

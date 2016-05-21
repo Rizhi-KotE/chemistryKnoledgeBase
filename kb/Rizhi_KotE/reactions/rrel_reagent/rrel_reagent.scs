@@ -1,5 +1,6 @@
 rrel_reagent
 	<- sc_node_role_relation;
+	<- rrel_key_sc_element: section_chemical_reaction;
 	=> nrel_main_idtf:
 	[реагент реакции*](*<- lang_ru;;*);
 	[reaction reagent*](*<- lang_en;;*);

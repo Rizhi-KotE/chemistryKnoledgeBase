@@ -156,7 +156,7 @@ proc_of_classificate_substance
 
             -> rrel_1: rrel_fixed:  rrel_scp_var:                                   _subst;;
             -> rrel_2: rrel_assign: rrel_scp_var: rrel_const: rrel_arc_common:      _arc1;;
-            -> rrel_3: rrel_fixed:  rrel_var:                                       _class;;
+            -> rrel_3: rrel_fixed:  rrel_scp_var:                                       _class;;
             -> rrel_4: rrel_assign: rrel_scp_var: rrel_pos_const_perm:              _arc2;;
             -> rrel_5: rrel_fixed:  rrel_scp_const:                                     nrel_class;;
 

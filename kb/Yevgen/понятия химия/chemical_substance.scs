@@ -1,5 +1,6 @@
 chemical_substance
 <= substance;
+<- rrel_key_sc_element: section_basis_chemical_concepts;
 <- sc_node_not_relation;
 => nrel_main_idtf:
 	[Химическое вещество]

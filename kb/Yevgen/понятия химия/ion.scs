@@ -1,5 +1,6 @@
 ion
 <- sc_node_not_relation;
+<- rrel_key_sc_element: section_atom_structure;
 => nrel_main_idtf:
 	[Ион]
 	(* <- lang_ru;;	*);

@@ -1,5 +1,6 @@
 atomic_number
 <- sc_node_not_relation;
+<- rrel_key_sc_element: section_basis_chemical_concepts;
 => nrel_main_idtf:
 	[Атомный номер]
 	(* <- lang_ru;;	*);

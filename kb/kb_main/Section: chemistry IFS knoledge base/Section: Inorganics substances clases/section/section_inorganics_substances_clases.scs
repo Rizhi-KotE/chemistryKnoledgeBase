@@ -1,2 +1,9 @@
 
-section_inorganics_substances_clases <= nrel_section_decomposition: inorganics_substances_clases_decomposition;;
+section_inorganics_substances_clases <= nrel_section_decomposition: 
+{
+	section_acids;
+	section_basis;
+	section_oxides;
+	section_salts
+};;
+;;

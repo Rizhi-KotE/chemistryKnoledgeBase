@@ -1,5 +1,6 @@
 nrel_quality_composition
 	<- sc_node_norole_relation;
+	<- rrel_key_sc_element: section_chemical_reaction;
 	=> nrel_main_idtf: 
 		[nrel_quality_composition] (*<- lang_en;;*);
 		[качественный состав вещества] (*<- lang_ru;;*);;
