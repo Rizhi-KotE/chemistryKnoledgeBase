@@ -4,7 +4,7 @@ elem_Na
 		<- value;;
 		=> nrel_maybe_value: ...
 		(*
-			-> [22.989768](*<- number;;*);;
+			-> 22.989768(*<- number;;*);;
 		*);;
 	*);
 <= nrel_electronegativity: ...
@@ -12,7 +12,7 @@ elem_Na
 		<- value;;
 		=> nrel_maybe_value: ...
 		(*
-			-> [0.93](*<- number;;*);;
+			-> 0.93(*<- number;;*);;
 		*);;
 	*);
 <= nrel_oxidation_states: ...
@@ -20,7 +20,7 @@ elem_Na
 		<- value;;
 		=> nrel_maybe_value: ...
 		(*
-			-> [1](*<- number;;*);;
+			-> 1(*<- number;;*);;
 		*);;
 	*);
 <= nrel_atomic_number: ...
@@ -28,7 +28,7 @@ elem_Na
 		<- value;;
 		=> nrel_maybe_value: ...
 		(*
-			-> [11](*<- number;;*);;
+			-> 11(*<- number;;*);;
 		*);;
 	*);
 

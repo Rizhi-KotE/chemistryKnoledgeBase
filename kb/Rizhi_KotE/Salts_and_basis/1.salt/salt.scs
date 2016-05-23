@@ -14,7 +14,7 @@ salt <- rrel_key_sc_element: salt_definition
 		*);;
 	<= nrel_using_constants:
 	{
-		concept_metal;
+		metal;
 		acid_residue
 	};;
 *);

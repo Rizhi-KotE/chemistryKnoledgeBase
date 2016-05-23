@@ -4,7 +4,7 @@ elem_Al
 		<- value;;
 		=> nrel_maybe_value: ...
 		(*
-			-> [26.981539](*<- number;;*);;
+			-> 26.981539(*<- number;;*);;
 		*);;
 	*);
 <= nrel_electronegativity: ...
@@ -12,7 +12,7 @@ elem_Al
 		<- value;;
 		=> nrel_maybe_value: ...
 		(*
-			-> [1.61](*<- number;;*);;
+			-> 1.61(*<- number;;*);;
 		*);;
 	*);
 <= nrel_oxidation_states: ...
@@ -20,7 +20,7 @@ elem_Al
 		<- value;;
 		=> nrel_maybe_value: ...
 		(*
-			-> [3](*<- number;;*);;
+			-> 3(*<- number;;*);;
 		*);;
 	*);
 <= nrel_atomic_number: ...
@@ -28,7 +28,7 @@ elem_Al
 		<- value;;
 		=> nrel_maybe_value: ...
 		(*
-			-> [13](*<- number;;*);;
+			-> 13(*<- number;;*);;
 		*);;
 	*);
 

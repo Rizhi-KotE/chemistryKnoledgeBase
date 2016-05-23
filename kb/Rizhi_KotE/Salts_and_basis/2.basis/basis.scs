@@ -15,7 +15,7 @@ basis
 		*);;
 		<= nrel_using_constants:
 			{
-				concept_metal;
+				metal;
 				hydroxyl_group
 			};;
 	*);

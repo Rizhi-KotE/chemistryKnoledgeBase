@@ -13,7 +13,7 @@ acid_salt
 	*);
 	<= nrel_using_constants:
 	{
-		concept_metal;
+		metal;
 		acid_residue;
 		hydrogen
 	};

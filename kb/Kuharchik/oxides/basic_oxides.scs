@@ -10,12 +10,12 @@ basic_oxides
                         <= nrel_sc_text_translation:...
                                 (*
                                         -> rrel_example:
-                                                [<b>Основные оксиды</b> - это <sc_element sys_idtf="concept_oxides">оксиды</sc_element> <sc_element sys_idtf="concept_metal">металлов</sc_element> в <sc_element sys_idtf="nrel_oxidation_state">степенях окисления</sc_element> +1 и +2.]
+                                                [<b>Основные оксиды</b> - это <sc_element sys_idtf="concept_oxides">оксиды</sc_element> <sc_element sys_idtf="metal">металлов</sc_element> в <sc_element sys_idtf="nrel_oxidation_state">степенях окисления</sc_element> +1 и +2.]
                                                 (*
                                                         <- lang_ru;;
                                                         => nrel_format: format_html;;
                                                 *);
-                                                [<b>Basic oxides</b> - this <sc_element sys_idtf="concept_metal">metal</sc_element> <sc_element sys_idtf="concept_oxides">oxides</sc_element> in the <sc_element sys_idtf="nrel_oxidation_state">oxidation states</sc_element> of +1 and +2.]
+                                                [<b>Basic oxides</b> - this <sc_element sys_idtf="metal">metal</sc_element> <sc_element sys_idtf="concept_oxides">oxides</sc_element> in the <sc_element sys_idtf="nrel_oxidation_state">oxidation states</sc_element> of +1 and +2.]
                                                 (*
                                                         <- lang_en;;
                                                         => nrel_format: format_html;;
@@ -44,6 +44,6 @@ basic_oxides
         <= nrel_using_constants:
                 {
                         oxides;
-                        concept_metal;
+                        metal;
                         acid 
                 };;

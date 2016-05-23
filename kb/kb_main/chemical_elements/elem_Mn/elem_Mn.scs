@@ -4,7 +4,7 @@ elem_Mn
 		<- value;;
 		=> nrel_maybe_value: ...
 		(*
-			-> [54.93805](*<- number;;*);;
+			-> 54.93805(*<- number;;*);;
 		*);;
 	*);
 <= nrel_electronegativity: ...
@@ -12,7 +12,7 @@ elem_Mn
 		<- value;;
 		=> nrel_maybe_value: ...
 		(*
-			-> [1.55](*<- number;;*);;
+			-> 1.55(*<- number;;*);;
 		*);;
 	*);
 <= nrel_oxidation_states: ...
@@ -20,7 +20,7 @@ elem_Mn
 		<- value;;
 		=> nrel_maybe_value: ...
 		(*
-			-> [2](*<- number;;*);;
+			-> 2(*<- number;;*);;
 		*);;
 	*);
 <= nrel_oxidation_states: ...
@@ -28,7 +28,7 @@ elem_Mn
 		<- value;;
 		=> nrel_maybe_value: ...
 		(*
-			-> [3](*<- number;;*);;
+			-> 3(*<- number;;*);;
 		*);;
 	*);
 <= nrel_oxidation_states: ...
@@ -36,7 +36,7 @@ elem_Mn
 		<- value;;
 		=> nrel_maybe_value: ...
 		(*
-			-> [4](*<- number;;*);;
+			-> 4(*<- number;;*);;
 		*);;
 	*);
 <= nrel_oxidation_states: ...
@@ -44,7 +44,7 @@ elem_Mn
 		<- value;;
 		=> nrel_maybe_value: ...
 		(*
-			-> [6](*<- number;;*);;
+			-> 6(*<- number;;*);;
 		*);;
 	*);
 <= nrel_oxidation_states: ...
@@ -52,7 +52,7 @@ elem_Mn
 		<- value;;
 		=> nrel_maybe_value: ...
 		(*
-			-> [7](*<- number;;*);;
+			-> 7(*<- number;;*);;
 		*);;
 	*);
 <= nrel_atomic_number: ...
@@ -60,7 +60,7 @@ elem_Mn
 		<- value;;
 		=> nrel_maybe_value: ...
 		(*
-			-> [25](*<- number;;*);;
+			-> 25(*<- number;;*);;
 		*);;
 	*);
 

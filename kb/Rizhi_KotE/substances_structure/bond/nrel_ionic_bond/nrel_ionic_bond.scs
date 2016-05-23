@@ -33,7 +33,7 @@ nrel_ionic_bond
 		<= nrel_using_constants: 
 		{
 			nrel_ionic_bond;
-			typical_concept_metal;
+			typical_metal;
 			nonmetal
 		};;
 	*);

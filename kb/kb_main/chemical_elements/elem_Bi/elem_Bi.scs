@@ -4,7 +4,7 @@ elem_Bi
 		<- value;;
 		=> nrel_maybe_value: ...
 		(*
-			-> [208.98037](*<- number;;*);;
+			-> 208.98037(*<- number;;*);;
 		*);;
 	*);
 <= nrel_electronegativity: ...
@@ -12,7 +12,7 @@ elem_Bi
 		<- value;;
 		=> nrel_maybe_value: ...
 		(*
-			-> [2.02](*<- number;;*);;
+			-> 2.02(*<- number;;*);;
 		*);;
 	*);
 <= nrel_oxidation_states: ...
@@ -20,7 +20,7 @@ elem_Bi
 		<- value;;
 		=> nrel_maybe_value: ...
 		(*
-			-> [3](*<- number;;*);;
+			-> 3(*<- number;;*);;
 		*);;
 	*);
 <= nrel_oxidation_states: ...
@@ -28,7 +28,7 @@ elem_Bi
 		<- value;;
 		=> nrel_maybe_value: ...
 		(*
-			-> [5](*<- number;;*);;
+			-> 5(*<- number;;*);;
 		*);;
 	*);
 <= nrel_atomic_number: ...
@@ -36,7 +36,7 @@ elem_Bi
 		<- value;;
 		=> nrel_maybe_value: ...
 		(*
-			-> [83](*<- number;;*);;
+			-> 83(*<- number;;*);;
 		*);;
 	*);
 

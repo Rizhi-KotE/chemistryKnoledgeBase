@@ -1,4 +1,4 @@
-concept_metal
+metal
 	<- sc_node_not_relation;
 	=> nrel_main_idtf: [metal](*<- lang_en;;*);
 					[металл](*<- lang_ru;;*);
@@ -14,4 +14,4 @@ concept_metal
 				(*<- lang_ru;;*);;
 		*);;
 	*);;
-section_metals -> rrel_key_sc_element: concept_metal;;
+section_metals -> rrel_key_sc_element: metal;;

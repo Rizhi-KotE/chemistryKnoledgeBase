@@ -1,4 +1,4 @@
-basis_salt <= nrel_inclusion: concept_salt;;
+basis_salt <= nrel_inclusion: salt;;
 basis_salt
 	=> nrel_main_idtf: [basis_salt](*<- lang_en;;*);
 						[основные соли](*<- lang_ru;;*);
@@ -14,7 +14,7 @@ basis_salt
 	*);
 <= nrel_using_constants:
 	{
-		concept_metal;
+		metal;
 		acid_residue;
 		hydroxyl_group
 	};

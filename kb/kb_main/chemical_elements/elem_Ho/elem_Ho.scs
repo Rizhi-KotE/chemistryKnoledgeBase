@@ -4,7 +4,7 @@ elem_Ho
 		<- value;;
 		=> nrel_maybe_value: ...
 		(*
-			-> [164.93032](*<- number;;*);;
+			-> 164.93032(*<- number;;*);;
 		*);;
 	*);
 <= nrel_electronegativity: ...
@@ -12,7 +12,7 @@ elem_Ho
 		<- value;;
 		=> nrel_maybe_value: ...
 		(*
-			-> [1.23](*<- number;;*);;
+			-> 1.23(*<- number;;*);;
 		*);;
 	*);
 <= nrel_oxidation_states: ...
@@ -20,7 +20,7 @@ elem_Ho
 		<- value;;
 		=> nrel_maybe_value: ...
 		(*
-			-> [3](*<- number;;*);;
+			-> 3(*<- number;;*);;
 		*);;
 	*);
 <= nrel_atomic_number: ...
@@ -28,7 +28,7 @@ elem_Ho
 		<- value;;
 		=> nrel_maybe_value: ...
 		(*
-			-> [67](*<- number;;*);;
+			-> 67(*<- number;;*);;
 		*);;
 	*);
 

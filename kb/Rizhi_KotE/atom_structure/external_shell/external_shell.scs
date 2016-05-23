@@ -1,4 +1,4 @@
---external_shell <= nrel_inclusion: electron_shell;;
+external_shell <= nrel_inclusion: electron_shell;;
 external_shell
 	<- sc_node_not_relation;
 	<- rrel_key_sc_element: section_atom_structure;

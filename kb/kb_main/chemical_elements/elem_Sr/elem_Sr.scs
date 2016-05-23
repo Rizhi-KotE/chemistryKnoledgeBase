@@ -4,7 +4,7 @@ elem_Sr
 		<- value;;
 		=> nrel_maybe_value: ...
 		(*
-			-> [87.62](*<- number;;*);;
+			-> 87.62(*<- number;;*);;
 		*);;
 	*);
 <= nrel_electronegativity: ...
@@ -12,7 +12,7 @@ elem_Sr
 		<- value;;
 		=> nrel_maybe_value: ...
 		(*
-			-> [0.95](*<- number;;*);;
+			-> 0.95(*<- number;;*);;
 		*);;
 	*);
 <= nrel_oxidation_states: ...
@@ -20,7 +20,7 @@ elem_Sr
 		<- value;;
 		=> nrel_maybe_value: ...
 		(*
-			-> [2](*<- number;;*);;
+			-> 2(*<- number;;*);;
 		*);;
 	*);
 <= nrel_atomic_number: ...
@@ -28,7 +28,7 @@ elem_Sr
 		<- value;;
 		=> nrel_maybe_value: ...
 		(*
-			-> [38](*<- number;;*);;
+			-> 38(*<- number;;*);;
 		*);;
 	*);
 

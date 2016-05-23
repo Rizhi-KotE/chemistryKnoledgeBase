@@ -28,12 +28,12 @@ amphoteric_oxides
                         <= nrel_sc_text_translation:...
                                 (*
                                         -> rrel_example:
-                                                [Образуются переходными <sc_element sys_idtf="concept_metal">металлами</sc_element>. <sc_element sys_idtf="concept_metal">Металлы</sc_element> в <sc_element sys_idtf="amphoteric_oxides">амфотерных оксидах</sc_element> обычно проявляют <sc_element sys_idtf="nrel_oxidation_state">степень окисления</sc_element> от III до IV, за исключением ZnO, BeO, SnO, PbO.]
+                                                [Образуются переходными <sc_element sys_idtf="metal">металлами</sc_element>. <sc_element sys_idtf="metal">Металлы</sc_element> в <sc_element sys_idtf="amphoteric_oxides">амфотерных оксидах</sc_element> обычно проявляют <sc_element sys_idtf="nrel_oxidation_state">степень окисления</sc_element> от III до IV, за исключением ZnO, BeO, SnO, PbO.]
                                                 (*
                                                         <- lang_ru;;
                                                         => nrel_format: format_html;;
                                                 *);
-                                                [Formed transition <sc_element sys_idtf="concept_metal">metal</sc_element>. <sc_element sys_idtf="concept_metal">Metals</sc_element> in <sc_element sys_idtf="amphoteric_oxides">amphoteric oxides</sc_element> typically exhibit <sc_element sys_idtf="nrel_oxidation_state">oxidation state</sc_element> of III to IV, except for ZnO, BeO, SnO, PbO.]
+                                                [Formed transition <sc_element sys_idtf="metal">metal</sc_element>. <sc_element sys_idtf="metal">Metals</sc_element> in <sc_element sys_idtf="amphoteric_oxides">amphoteric oxides</sc_element> typically exhibit <sc_element sys_idtf="nrel_oxidation_state">oxidation state</sc_element> of III to IV, except for ZnO, BeO, SnO, PbO.]
                                                 (*
                                                         <- lang_en;;
                                                         => nrel_format: format_html;;
@@ -44,5 +44,5 @@ amphoteric_oxides
         <= nrel_using_constants:
                 {
                         salt_forming_oxides;
-                        concept_metal
+                        metal
                 };;

@@ -4,7 +4,7 @@ elem_Ga
 		<- value;;
 		=> nrel_maybe_value: ...
 		(*
-			-> [69.723](*<- number;;*);;
+			-> 69.723(*<- number;;*);;
 		*);;
 	*);
 <= nrel_electronegativity: ...
@@ -12,7 +12,7 @@ elem_Ga
 		<- value;;
 		=> nrel_maybe_value: ...
 		(*
-			-> [1.81](*<- number;;*);;
+			-> 1.81(*<- number;;*);;
 		*);;
 	*);
 <= nrel_oxidation_states: ...
@@ -20,7 +20,7 @@ elem_Ga
 		<- value;;
 		=> nrel_maybe_value: ...
 		(*
-			-> [3](*<- number;;*);;
+			-> 3(*<- number;;*);;
 		*);;
 	*);
 <= nrel_atomic_number: ...
@@ -28,7 +28,7 @@ elem_Ga
 		<- value;;
 		=> nrel_maybe_value: ...
 		(*
-			-> [31](*<- number;;*);;
+			-> 31(*<- number;;*);;
 		*);;
 	*);
 
