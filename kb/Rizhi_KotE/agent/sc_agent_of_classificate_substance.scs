@@ -28,7 +28,7 @@ sc_agent_of_classificate_substance
 		{
 		agent_of_classificate_substance
 		};;
-	-> sc_agent_of_classificate_substance_scp (* <- active_sc_agent;; *);;
+	//-> sc_agent_of_classificate_substance_scp (* <- active_sc_agent;; *);;
 	*);;
 
 ..sc_agent_of_classificate_substance_condition
